@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {}
+
+/*--------------------------header------------------------------*/
+
+header {
+   
+}
+
+#logo_casa_sonia_fashion {
+    border-radius: 10px;
+}
+
+#bar-search {
+    border: solid 1px black;
+}
+
+#btn-search {
+    color: #f16f26;
+    border-color: #f16f26;
+}
+
+#btn-search:hover {
+    background-color: #f1702665;
+    color: black;
+}
+
+#cabecalho {
+    display: flex;
+    gap: 150px;
+}
+
+@media (max-width: 400px) {
+    #logo_casa_sonia_fashion {
+        width: 50px;
+        border-radius: 5px;
+    }   
+}
+
+/*--------------------------header------------------------------*/
+
+/*--------------------------main------------------------------*/
+
+#carrosel {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#cards {
+    padding-bottom: 40px;
+}
+
+#info {
+    border-top: solid 1px #f16f26;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 400px) {
+ 
+    #info {
+        display: flex;
+       flex-direction: column-reverse;
+       align-items: start;
+    }
+
+    #ajuda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*--------------------------main------------------------------*/
+
+/*--------------------------footer------------------------------*/
+
+footer {
+    border-top: solid 1px #f16f26;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*background-color: #333;
+    color: white;*/
+    text-align: center;
+    padding: 40px;
+}
+
+#icon-redes {
+    color: #f16f26;
+}
+
+
+/*--------------------------footer------------------------------*/
+
+/*--------------------------responsive------------------------------*/
+
+
+
+/*--------------------------responsive------------------------------*/
+
+@media (max-width: 400px) {
+ 
+}
